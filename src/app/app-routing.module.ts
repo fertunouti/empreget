@@ -11,6 +11,10 @@ const routes: Routes = [
     redirectTo: 'home',
     pathMatch: 'full'
   },
+  {
+    path: 'os-view',
+    loadChildren: () => import('./os-view/os-view.module').then( m => m.OsViewPageModule)
+  },
 ];
 
 @NgModule({
