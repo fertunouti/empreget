@@ -23,8 +23,8 @@
               <td colspan="2">Empresa Responsável</td>
             </tr>
             <tr>
-              <td>Nome</td>
-              <td>Telefone</td>
+              <td style="width: 300px;">Nome</td>
+              <td style="width: 300px;">Telefone</td>
             </tr>
             <tr>
               <td>EmpreGet</td>
@@ -52,8 +52,8 @@
               <td colspan="2">Cliente</td>
             </tr>
             <tr>
-              <td>Nome</td>
-              <td>Telefone</td>
+              <td style="width: 200px;">Nome</td>
+              <td style="width: 200px;">Telefone</td>
             </tr>
             <tr>
               <td>Sueli Cavalcanti</td>
@@ -78,12 +78,12 @@
         <ion-card-content>
           <table>
             <tr>
-              <td colspan="2">Valor do Serviço</td>
+              <td colspan="3">Valor do Serviço</td>
             </tr>
             <tr>
-              <td>Serviço</td>
-              <td>Valor</td>
-              <td>Subtotal</td>
+              <td style="width: 300px;">Serviço</td>
+              <td style="width: 75px;">Valor</td>
+              <td style="width: 75px;">Subtotal</td>
             </tr>
             <tr>
               <td>Serviço de limpeza e higiene</td>
@@ -121,9 +121,17 @@
 
 <ion-footer class = "footer"> 
   <ion-toolbar> 
-   <ion-title>Footer</ion-title>
+    <div>
+      <ion-grid>
+        <ion-row justify-content-center>
+            <ion-col size="auto" class="ion-text-center" style="padding: 0 10px;">
+              <ion-button fill="outline" routerLink ="/home" >Página Inicial</ion-button>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </div>
   
-    <ion-button fill="outline" routerLink ="/home" >Página Inicial</ion-button>
+   
 
 
    </ion-toolbar>

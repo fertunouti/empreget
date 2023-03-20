@@ -4,3 +4,36 @@
 .footer{
     padding-top : "50";
 }
+
+ion-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+ion-grid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  ion-button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 25px;
+    width: 100px;
+    font-size: x-small;
+  }
+
+  ion-card table tr:first-child {
+    font-weight: bold;
+    background-color: grey;
+    width: 100%;
+    color: black;
+    font-size:smaller;
+    
+  }
+  ion-card table tr:not(:first-child) {
+    font-size: 60%;
+  }
