@@ -1,15 +1,12 @@
-.card {
-    background-color: #eaf3f3;
-    
-}
-.footer{
-    padding-top : "50";
-}
+
+
+
 
 ion-content {
     display: flex;
     justify-content: center;
     align-items: center;
+    
   }
   
 ion-grid {
@@ -27,15 +24,22 @@ ion-button {
     font-size: x-small;
   }
 
- ion-card table tr:first-child {
-    font-weight: bold;
-    background-color: grey;
-    width: 100%;
-    color: black;
-    font-size:smaller;
-    
-    
-  }
-ion-card table tr:not(:first-child) {
-    font-size: 60%;
-  }
+ 
+.content{
+  margin-top : 15px;
+  margin-left: 5px; 
+  font-size: 60%;
+}
+
+table{
+  border-collapse: collapse;
+  border: 1px solid #ccc;
+  width: 95%;
+  margin-left: 5px;
+  
+}
+
+table th {
+  background-color: #ccc;
+
+}

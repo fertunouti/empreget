@@ -1,14 +1,35 @@
-<ion-header [translucent]="true">
+<ion-header>
   <ion-toolbar>
-    <img src="../../assets/img/logo_empreget.png" alt="" height="40" width="150">
-
-    <ion-title>
-      Página Inicial
-      
-    </ion-title>
+    <div style="display: flex; align-items: flex-end">
+      <img src="../../assets/img/logo_empreget.png" style="max-width:50%; height:auto;padding-left: 10px" >
+      <ion-title size="small" align = "right">Prestador</ion-title>
+    </div>
+    
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
- <ion-button fill="outline" routerLink ="/os-view"> Ordem de Serviço </ion-button>
+
+  <ion-grid>
+    <ion-row justify-content-center>
+        <ion-col size="auto" class="ion-text-center" style="padding: 0 10px;">
+          <ion-button fill="outline" routerLink ="/os-view" >Ordem de Serviço</ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
 </ion-content>
+
+
+
+<ion-footer class = "footer"> 
+  <ion-toolbar> 
+    <div>
+      <ion-grid>
+        <ion-row justify-content-center>
+            <ion-col size="auto" class="ion-text-center" style="padding: 0 10px;">
+              <ion-button fill="outline" routerLink ="" >Home</ion-button>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </div>
+  
