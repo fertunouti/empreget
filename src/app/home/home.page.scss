@@ -40,3 +40,8 @@ ion-button {
   width: 100%;
   font-size: x-small;
 }
+
+ion-grid ion-row ion-col img {
+  max-height : 50px;
+  padding: 1px 30px;
+}

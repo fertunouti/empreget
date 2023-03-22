@@ -1,0 +1,83 @@
+<ion-header>
+  <ion-toolbar>
+    <div style="display: flex; align-items: flex-end">
+      <img src="../../assets/img/logo_empreget.png" style="max-width:50%; height:auto;padding-left: 10px" >
+      <ion-title size="small" align = "right">Prestador</ion-title>
+    </div>
+    
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <div align="center" style= "padding-top:10px; font-size:small;"> Agendamentos </div>
+    
+    <div align="center">
+      <ion-datetime
+      value="2023-04-21T00:00:00"
+      min="2023-03-01T00:00:00"
+      max="2023-05-31T23:59:59"
+      
+    ></ion-datetime>
+
+    </div>
+    
+
+
+    
+    <div class="content">
+      Ordem de Serviço n<sup>o</sup> 40 
+        <table border="1">
+          <thead>
+            <th>Nome</th>
+            <th></th>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Sueli Cavalcanti</td>
+              <td></td>
+            </tr>
+          </tbody>
+          
+            <thead>
+              <th>Email</th>
+              <th></th>
+            </thead>
+            <tbody>
+              <tr>
+                <td>sueli@gmail.com</td>
+                <td>
+                  <ion-button shape="round" color="success" routerLink="/finalizar-os">
+                  View
+                </ion-button>
+              </td>
+              </tr>
+            </tbody>
+       </table>
+    </div>
+        
+        
+     
+    
+</ion-content>
+      
+
+     
+
+
+<ion-footer class = "footer"> 
+  <ion-toolbar> 
+    <div>
+      <ion-grid>
+        <ion-row justify-content-center>
+            <ion-col size="auto" class="ion-text-center" style="padding: 0 5px;">
+              <ion-button fill="outline" routerLink ="/home" >Home</ion-button>
+              <img src="../../assets/img/home.PNG"  >
+              <img src="../../assets/img/chat.PNG"  >
+              <img src="../../assets/img/agenda.PNG" >
+              <img src="../../assets/img/menu.PNG"  >
+            </ion-col>
+        </ion-row>
+      </ion-grid>
+    </div>
+  </ion-toolbar>
+</ion-footer>

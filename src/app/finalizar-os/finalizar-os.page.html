@@ -66,6 +66,35 @@
             </tbody>
        </table>
     </div>
+
+
+    <div class="content">
+      Informações do serviço
+      <table border="1">
+        <thead>
+          <th>Horário de início</th>
+          <th>Horário de término</th>
+        </thead>
+        <tbody>
+          <tr>
+            <td>02/06/2023 8:00h</td>
+            <td>02/06/2023 17:30h</td>
+          </tr>
+        </tbody>
+        <thead>
+          <th>Data</th>
+          <th>Serviços</th>
+        </thead>
+        <tbody>
+          <tr>
+            <td>02/06/2023</td>
+            <td>Serviço de higiene e limpeza</td>
+          </tr>
+        </tbody>
+        
+          
+     </table>
+  </div>
         
     <div class="content">
       Valor dos serviços
@@ -87,19 +116,20 @@
 
 
     </div>
-      
-     
+    
+    <p></p> 
+    <ion-item>
+      <ion-checkbox slot="start"></ion-checkbox>
+      <ion-label>Confirmo o recebimento do serviço prestado</ion-label>
+    </ion-item>
+    <p></p>
     <div>
       <ion-grid>
         <ion-row justify-content-center>
+          
           <ion-col size="auto" class="ion-text-center" style="padding: 0 10px;">
-            <ion-button shape="round" color="success" routerLink="/finalizar-os">
-              Aceitar
-            </ion-button>
-          </ion-col>
-          <ion-col size="auto" class="ion-text-center" style="padding: 0 10px;">
-            <ion-button shape="round" color="danger" routerLink="/home">
-              Rejeitar
+            <ion-button shape=round color=danger >
+              Finalizar
             </ion-button>
           </ion-col>
         </ion-row>
@@ -128,9 +158,3 @@
     </div>
   </ion-toolbar>
 </ion-footer>
-
-
-  
-   
-
-  

@@ -15,6 +15,15 @@ const routes: Routes = [
     path: 'os-view',
     loadChildren: () => import('./os-view/os-view.module').then( m => m.OsViewPageModule)
   },
+  {
+    path: 'finalizar-os',
+    loadChildren: () => import('./finalizar-os/finalizar-os.module').then( m => m.FinalizarOsPageModule)
+  },
+  {
+    path: 'agendamentos',
+    loadChildren: () => import('./agendamentos/agendamentos.module').then( m => m.AgendamentosPageModule)
+  },
+ 
 ];
 
 @NgModule({
