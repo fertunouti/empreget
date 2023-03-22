@@ -22,7 +22,11 @@ const routes: Routes = [
   {
     path: 'agendamentos',
     loadChildren: () => import('./agendamentos/agendamentos.module').then( m => m.AgendamentosPageModule)
+  },  {
+    path: 'tela-inicial-prestador',
+    loadChildren: () => import('./tela-inicial-prestador/tela-inicial-prestador.module').then( m => m.TelaInicialPrestadorPageModule)
   },
+
  
 ];
 

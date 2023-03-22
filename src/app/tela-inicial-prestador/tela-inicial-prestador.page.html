@@ -1,0 +1,67 @@
+<ion-header>
+  <ion-toolbar>
+    <div style="display: flex; align-items: flex-end">
+      <img src="../../assets/img/logo_empreget.png" style="max-width:50%; height:auto;padding-left: 10px" >
+      <ion-title size="small" align = "right">Prestador</ion-title>
+    </div>
+    
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    
+  <div>
+    <img src="../../assets/img/prestador.PNG"  >
+  </div>
+  
+  
+  <div align="center" style= "padding-top:10px; font-size:medium;"> 
+    <p> Bem vindo prestador! </p> 
+    <p> Bem vindo ao app de serviços</p> 
+    <p> de limpeza mais amado do Brasil</p>
+  </div>
+  
+    <div class="content">
+      <ion-grid>
+        <ion-row justify-content-center>
+          <ion-col size="auto" >
+            <ion-button shape="round" fill="outline" routerLink="/agendamentos">
+              Administrar Agenda
+            </ion-button>
+          </ion-col>
+        </ion-row>
+        <ion-row justify-content-center>
+          <ion-col size="auto"  style="padding: 0 10px;">
+            <ion-button shape="round" fill="outline" routerLink="/finalizar-os">
+              Finalizar Ordem de Serviço
+            </ion-button>
+          </ion-col>
+        </ion-row>
+        <ion-row justify-content-center>
+          <ion-col size="auto"  style="padding: 0 10px;">
+            <ion-button shape="round" fill="outline" routerLink = "/home">
+              Perfil
+            </ion-button>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </div>
+</ion-content>
+
+<ion-footer class = "footer"> 
+  <ion-toolbar> 
+    <div>
+      <ion-grid>
+        <ion-row justify-content-center>
+            <ion-col size="auto" style="padding: 0 5px;">
+              <ion-button fill="outline" routerLink ="/home" >Home</ion-button>
+              <img src="../../assets/img/home.PNG"  >
+              <img src="../../assets/img/chat.PNG"  >
+              <img src="../../assets/img/agenda.PNG" >
+              <img src="../../assets/img/menu.PNG"  >
+            </ion-col>
+        </ion-row>
+      </ion-grid>
+    </div>
+  </ion-toolbar>
+</ion-footer>
