@@ -1,5 +1,7 @@
 import { NgModule } from '@angular/core';
 import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
+import { FinalizarOsPage} from './finalizar-os/finalizar-os.page';
+
 
 const routes: Routes = [
   {
@@ -31,7 +33,9 @@ const routes: Routes = [
     path: 'perfil',
     loadChildren: () => import('./perfil/perfil.module').then( m => m.PerfilPageModule)
   },
-
+  {path: './finalizar-os/finalizar-os.page',
+      component: FinalizarOsPage
+   },
  
 ];
 

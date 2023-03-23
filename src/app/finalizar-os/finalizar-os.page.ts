@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
+import { AlertController } from '@ionic/angular';
+
 
 @Component({
   selector: 'app-finalizar-os',
@@ -8,9 +11,28 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FinalizarOsPage implements OnInit {
 
-  constructor() { }
-
+ 
   ngOnInit() {
+  }
+
+
+  constructor(private router: Router, private alertController: AlertController) { }
+
+  async finishWork() {
+    const alert = await this.alertController.create({
+      header: 'Work Finished!',
+      message: 'Thanks',
+      buttons: [
+        {
+          text: 'OK',
+          handler: () => {
+            this.router.navigate(['/home']);
+          }
+        }
+      ]
+    });
+
+    await alert.present();
   }
 
 }
