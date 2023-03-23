@@ -27,6 +27,10 @@ const routes: Routes = [
     path: 'tela-inicial-prestador',
     loadChildren: () => import('./tela-inicial-prestador/tela-inicial-prestador.module').then( m => m.TelaInicialPrestadorPageModule)
   },
+  {
+    path: 'perfil',
+    loadChildren: () => import('./perfil/perfil.module').then( m => m.PerfilPageModule)
+  },
 
  
 ];
