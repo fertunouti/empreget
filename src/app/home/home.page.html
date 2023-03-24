@@ -1,8 +1,9 @@
 <ion-header>
   <ion-toolbar>
-    <div style="display: flex; align-items: flex-end">
-      <img src="../../assets/img/logo_empreget.png" style="max-width:50%; height:auto;padding-left: 10px" >
-      <ion-title size="small" align = "right">Prestador</ion-title>
+    <div class = "header">  
+      <!-- <img src="../../assets/img/logo_empreget.png" style="max-width:50%; height:auto;padding-left: 10px" > -->
+      <img src="../../assets/img/logo_empreget.png" >
+        <ion-title>Prestador</ion-title>
     </div>
     
   </ion-toolbar>
@@ -12,11 +13,9 @@
 <ion-content [fullscreen]="true">
 
   <ion-grid>
-    <ion-row justify-content-center>
-        <ion-col size="auto" class="ion-text-center" style="padding: 0 10px;">
-          <ion-button fill="outline" routerLink ="/os-view" >Ordem de Serviço</ion-button>
-          <ion-button fill="outline" routerLink ="/agendamentos" >Agendamentos</ion-button>
-          <ion-button fill="outline" routerLink ="/tela-inicial-prestador" >Prestador</ion-button>
+    <ion-row>    
+      <ion-col>    
+        <ion-button fill="outline" routerLink ="/tela-inicial-prestador" >Prestador</ion-button>
       </ion-col>
     </ion-row>
   </ion-grid>
@@ -28,8 +27,8 @@
   <ion-toolbar> 
     <div>
       <ion-grid>
-        <ion-row justify-content-center>
-            <ion-col size="auto" class="ion-text-center" style="padding: 0 10px;">
+        <ion-row>
+          <ion-col class="ion-text-center" >
               <ion-button fill="outline" routerLink ="" >Home</ion-button>
               <img src="../../assets/img/home.PNG"  >
               <img src="../../assets/img/chat.PNG"  >
