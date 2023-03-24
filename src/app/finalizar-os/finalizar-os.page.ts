@@ -20,8 +20,8 @@ export class FinalizarOsPage implements OnInit {
 
   async finishWork() {
     const alert = await this.alertController.create({
-      header: 'Work Finished!',
-      message: 'Thanks',
+      header: 'Serviço finalizado!',
+      message: 'Obrigado!',
       buttons: [
         {
           text: 'OK',

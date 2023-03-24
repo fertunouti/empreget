@@ -6,7 +6,7 @@ import { IonicModule, IonicRouteStrategy } from '@ionic/angular';
 
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
-import { FinalizarOsPage } from './finalizar-os/finalizar-os.page';
+/*import { FinalizarOsPage } from './finalizar-os/finalizar-os.page';*/
 import { RouterModule, Routes } from '@angular/router'
 
 

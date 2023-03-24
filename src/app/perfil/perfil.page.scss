@@ -1,5 +1,10 @@
-
-  ion-grid {
+.header {
+  display: flex;
+  align-items: flex-end;
+  text-align: right;
+  max-width:50%;
+}
+ion-grid {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -8,7 +13,7 @@
     
   }
   
-  ion-button {
+ion-button {
     margin-top: 10px;
     margin-bottom: 10px;
     height: 25px;
@@ -19,12 +24,12 @@
     
   }
   
-  ion-grid ion-row ion-col img {
+ion-grid ion-row ion-col img {
     max-height : 50px;
     padding: 1px 30px;
   }
 
-  .custom-button {
+.custom-button {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -43,13 +48,13 @@
     /*--box-shadow: 0 2px 6px 0 rgb(0, 0, 0, 0.25);*/
   }
   
-  .custom-button ion-icon:first-child {
+.custom-button ion-icon:first-child {
     margin-right: 8px;
     color: #776f6f;
     font-size: inherit;
   }
   
-  .custom-button div {
+.custom-button div {
     flex: 1;
     text-align: left;
     color: #776f6f;
@@ -57,7 +62,7 @@
 
   }
   
-  .custom-button ion-icon:last-child {
+.custom-button ion-icon:last-child {
     margin-left: 8px;
     color: #776f6f;
   }
