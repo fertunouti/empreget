@@ -18,7 +18,7 @@ export class FinalizarOsPage implements OnInit {
 
   constructor(private router: Router, private alertController: AlertController) { }
 
-  async finishWork() {
+  async finalizar() {
     const alert = await this.alertController.create({
       header: 'Serviço finalizado!',
       message: 'Obrigado!',

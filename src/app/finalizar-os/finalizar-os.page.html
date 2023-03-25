@@ -9,7 +9,8 @@
 </ion-header>
 
 <ion-content>
-    <div align="center" style= "padding-top:10px; font-size:small;"> Ordem de Serviço n<sup>o</sup> 40 </div>
+    
+    <div align="center" style= "padding-top:20px; font-size:small;"> Ordem de Serviço n<sup>o</sup> 40 </div>
   
     <div class="content">
         Empresa Responsável
@@ -118,8 +119,8 @@
     </div>
     
     <p></p> 
-    <ion-item>
-      <ion-checkbox slot="start"></ion-checkbox>
+    <ion-item align="center" style= "padding-top:10px; font-size:small;">
+      <ion-checkbox slot="start" ></ion-checkbox>
       <ion-label>Confirmo o recebimento do serviço prestado</ion-label>
     </ion-item>
     <p></p>
@@ -127,11 +128,9 @@
       <ion-grid>
         <ion-row justify-content-center>
           
-          <ion-col size="auto" class="ion-text-center" style="padding: 0 10px;">
-            <ion-button shape=round color=danger >
-              Finalizar
-            </ion-button>
-            <ion-button (click)="finishWork()">Finish</ion-button>
+          <ion-col  style="padding: 20px 10px;">
+            
+            <ion-button (click)="finalizar()" shape=round color=danger>Finalizar</ion-button>
           </ion-col>
         </ion-row>
       </ion-grid>
@@ -147,13 +146,12 @@
     <div>
       <ion-grid>
         <ion-row justify-content-center>
-            <ion-col size="auto" class="ion-text-center" style="padding: 0 5px;">
-              <ion-button fill="outline" routerLink ="/home" >Home</ion-button>
-              <img src="../../assets/img/home.PNG"  >
-              <img src="../../assets/img/chat.PNG"  >
-              <img src="../../assets/img/agenda.PNG" >
-              <img src="../../assets/img/menu.PNG"  >
-            </ion-col>
+          <ion-col class="imagem" >
+            <img src="../../assets/img/home.PNG"  routerLink="/home">
+            <img src="../../assets/img/chat.PNG"  routerLink="/home">
+            <img src="../../assets/img/agenda.PNG" routerLink="/agendamentos">
+            <img src="../../assets/img/menu.PNG"  routerLink="/home">
+        </ion-col>
         </ion-row>
       </ion-grid>
     </div>
